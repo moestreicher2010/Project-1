@@ -2,13 +2,18 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(https://drive.google.com/file/d/1BHo5jqvCQGuOi0y-qhR6maa3IRm3Co_3/view?usp=sharing)
+[Network Diagram](https://drive.google.com/file/d/1BHo5jqvCQGuOi0y-qhR6maa3IRm3Co_3/view?usp=sharing)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
-
-This document contains the following details:
+  - [Filebeat Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-config.yml)
+  - [Filebeat Playbook](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-playbook.yml)
+  - [Metricbeat Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-config.yml)
+  - [Metricbeat Playbook](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-playbook.yml)
+  - [Elk Installation](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/install-elk.yml)  
+  - [Docker Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/penntest.yml)  
+  - 
+  - This document contains the following details:
 - Description of the Topologu
 - Access Policies
 - ELK Configuration
@@ -33,10 +38,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box | Gateway  | 20.98.160.157   | Ubuntu Server 18.04 LTS           |
+| Web-1 VM   | DVWA Server      | 10.1.0.5            |  Ubuntu Server 18.04 LTS            |
+| Web-2 VM     | DVWA Server         | 10.1.0.6        |  Ubuntu Server 18.04 LTS                |
+| Web-3 VM     | DVWA Server         | 10.1.0.7         |  Ubuntu Server 18.04 LTS               |
+| ELK Server     | Monitoring         | 20.62.42.94    |  Ubuntu Server 18.04 LTS               |
 
 ### Access Policies
 
