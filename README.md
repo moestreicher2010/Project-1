@@ -11,8 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Metricbeat Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-config.yml)
   - [Metricbeat Playbook](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-playbook.yml)
   - [Elk Installation](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/install-elk.yml)  
-  - 
-  - 
+  - [Server](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/penntest.yml)  - 
   - This document contains the following details:
 - Description of the Topologu
 - Access Policies
