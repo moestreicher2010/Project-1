@@ -14,9 +14,9 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Docker Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/penntest.yml)  
   - [Ansible Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/ansible.cfg)  
   - [Hosts](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/hosts)  - 
-  - 
-  - This document contains the following details:
-- Description of the Topologu
+  
+This document contains the following details:
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
