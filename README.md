@@ -34,7 +34,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 20.98.160.157   | Linux            |
-| TODO     |          |            |                  |
+| Web-1 VM   | DVWA Server      | 10.1.0.5            |    Linux              |
 | TODO     |          |            |                  |
 | TODO     |          |            |                  |
 
