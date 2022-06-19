@@ -129,4 +129,6 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana (http://[Host IP]/app/kibana#/home) to check that the installation worked as expected.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- The specific commands the user will need to run to download the playbook, update the files, etc.:
+  * Edit/Update files command: **sudo nano file.name**
+  * Execute playbook files: **sudo ansible-playbook playbookname.yml**
