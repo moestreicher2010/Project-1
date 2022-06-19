@@ -66,9 +66,9 @@ Machines within the network can only be accessed by Workstation (my IP) and Jump
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses | Port |
+| Name     | Publicly Accessible | Allowed IP Addresses | 
 |----------|---------------------|----------------------|
-| Jump Box | Yes              | Local Admin IP    | SSH 22 |
+| Jump Box | Yes              | Local Admin IP    | 
 |          |                     |                      |
 |          |                     |                      |
 
