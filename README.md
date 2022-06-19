@@ -38,9 +38,10 @@ Load balancing ensures that the application will be highly avaialble, in additio
   * Jump box virtual machine is exposed on the public network to withstand malicious threats and attacks. It is also used to manage other systems and hardens security,       it is treated as a single entryway to a server group from within your security zone.
   * The advantage of having a jump box is that it limits access to servers that are inaccessible over the network.
   
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+ - Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+   What does Filebeat watch for?
+ 
+ - What does Metricbeat record?_
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
