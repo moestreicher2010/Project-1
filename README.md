@@ -94,13 +94,25 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- Web-1 VM: 10.1.0.5
+- Web-2 VM: 10.1.0.6
+- Web-3 VM: 10.1.0.7
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Filebeat
+- Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+**Filebeat**
+- Filebeat monitors the specified log file or location, collects log events, and forwards them to Elasticsearch or Logstash for indexing.
+- Filebeat is used to collect and send log files.
+- Filebeat can be installed on almost any operating system, including Docker containers. It also contains internal modules for specific platforms such as Apache, MySQL, and Docker, including default configurations and Kibana objects for these platforms.
+
+**Metricbeat**
+- Metricbeat helps monitor your server by collecting metrics and statistics that are collected and sent to the specific from the systems and services running on your server.
+- Like Filebeat, Metricbeat supports an internal module for collecting statistics from a particular platform.
+- You can use these modules and a subset called metric sets to configure how often Metricbeat collects metrics and the specific metrics it collects.
+- We use it for failed SSH login attempts, sudo escalations, and CPU/RAM statistics.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
