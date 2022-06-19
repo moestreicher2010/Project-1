@@ -72,6 +72,7 @@ A summary of the access policies in place can be found in the table below.
 | Web-1 VM         | No       | 10.1.0.5              |
 | Web-2 VM     |  No              | 10.1.0.6               |
 | Web-3 VM         | No       | 10.1.0.7     |
+| Elk Server         | No       | Local Admin IP             |
 
 ### Elk Configuration
 
