@@ -103,6 +103,7 @@ We have installed the following Beats on these machines:
 - Metricbeat
 
 These Beats allow us to collect the following information from each machine:
+
 **Filebeat**
 - Filebeat monitors the specified log file or location, collects log events, and forwards them to Elasticsearch or Logstash for indexing.
 - Filebeat is used to collect and send log files.
