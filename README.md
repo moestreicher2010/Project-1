@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Elk Installation](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/install-elk.yml)  
   - [Docker Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/penntest.yml)  
   - [Ansible Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/ansible.cfg)  
-  - [Hosts](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/hosts)  - 
+  - [Hosts](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/hosts)  
   
 This document contains the following details:
 - Description of the Topology
