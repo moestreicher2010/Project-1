@@ -39,9 +39,9 @@ Load balancing ensures that the application will be highly avaialble, in additio
   * The advantage of having a jump box is that it limits access to servers that are inaccessible over the network.
   
  - Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
-   What does Filebeat watch for?
- 
- - What does Metricbeat record?_
+  * What does Filebeat watch for?  Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+   
+  * What does Metricbeat record?  Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
