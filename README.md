@@ -4,9 +4,6 @@ The files in this repository were used to configure the network depicted below.
 
 ![Screen Shot 2022-06-19 at 10 04 22 AM](https://user-images.githubusercontent.com/98979214/174485031-1abad5cd-847b-4c75-9f62-e913ccf72ae3.png)
 
-
-[alt text](https://drive.google.com/file/d/1BHo5jqvCQGuOi0y-qhR6maa3IRm3Co_3/view?usp=sharing)
-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Configuration file may be used to install only certain pieces of it, such as Filebeat.
 
   - [Filebeat Configuration](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-config.yml)
