@@ -16,12 +16,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Hosts](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/hosts)  
   
 This document contains the following details:
-- Description of the Topology
-- Access Policies
-- ELK Configuration
-  - Beats in Use
-  - Machines Being Monitored
-- How to Use the Ansible Build
+* Description of the Topology
+* Access Policies
+* ELK Configuration
+* Beats in Use
+* Machines Being Monitored
+* How to Use the Ansible Build
 
 
 ### Description of the Topology
