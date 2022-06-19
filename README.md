@@ -122,7 +122,7 @@ SSH into the control node and follow the steps below:
 - Copy the [Ansible Configuration file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-config.yml) and [Metricbeat Configuration file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-config.yml) to Ansible container folder: **/ect/ansible/files/**.
 ![Screen Shot 2022-06-19 at 11 30 22 AM](https://user-images.githubusercontent.com/98979214/174488693-57af4b6c-ea5a-49c8-8714-9ef07c80b5af.png)
 
-- Copy the [Filebeat Playbook file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-playbook.yml) Metricbeat Playbook to Ansible container folder: **/etc/ansible/roles**.
+- Copy the [Filebeat Playbook file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-playbook.yml) and [Metricbeat Playbook file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-playbook.yml) to Ansible container folder: **/etc/ansible/roles**.
 ![Screen Shot 2022-06-19 at 11 32 58 AM](https://user-images.githubusercontent.com/98979214/174488800-5cb2c107-3fcb-405c-befa-8afab3e93385.png)
 
 - Update the _____ file to include...
