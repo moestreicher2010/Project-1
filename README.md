@@ -125,8 +125,8 @@ SSH into the control node and follow the steps below:
 - Copy the [Filebeat Playbook file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/filebeat-playbook.yml) and [Metricbeat Playbook file](https://github.com/moestreicher2010/Project-1/blob/main/Ansible/metricbeat-playbook.yml) to Ansible container folder: **/etc/ansible/roles**.
 ![Screen Shot 2022-06-19 at 11 32 58 AM](https://user-images.githubusercontent.com/98979214/174488800-5cb2c107-3fcb-405c-befa-8afab3e93385.png)
 
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Update the hosts file **/etc/ansible/hosts/** to include **ELK server IP 10.2.0.4** and **Webservers**.
+- Run the playbook, and navigate to Kibana (http://[Host IP]/app/kibana#/home) to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
