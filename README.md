@@ -62,13 +62,13 @@ Only the Jump Box Provisioner machine can accept connections from the Internet. 
 
 Machines within the network can only be accessed by Workstation (my IP) and Jump Box Provisioner.
 - Which machine did you allow to access your ELK VM? **Jump Box Provisioner IP: 10.1.0.4 via SSH port 22**
-- What was its IP address? 
+- What was its IP address? **Local Admin IP, Workstation (my personal IP) via port TCP 5601**
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
+| Name     | Publicly Accessible | Allowed IP Addresses | Port |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
+| Jump Box | Yes              | Local Admin IP    | SSH 22 |
 |          |                     |                      |
 |          |                     |                      |
 
